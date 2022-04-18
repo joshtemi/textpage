@@ -549,7 +549,9 @@ section{
 /* NAVIGATION ENDS HERE */
 
 /* media Queries */
-
+.map{
+    margin: 0 auto;
+}
 @media (min-width:701px){
 /* laptop layout main conatainer */
 .blogs-container{
