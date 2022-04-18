@@ -1,5 +1,3 @@
-const mq = window.matchMedia("(max-width :500px)")
-if(mq.matches){
    const mainNav = document.getElementById("main-nav")
    const subMenu = document.querySelectorAll(".submenu")
    const hasSubMenu = document.querySelectorAll(".has-submenu")
@@ -9,14 +7,7 @@ if(mq.matches){
    
     // alternative method of writing a function
     // function navSlide(){
-    // const menuIcon = document.getElementById("burger-icon")
-    const menu = document.querySelector(".burger")
-    const sidebar = document.querySelector(".nav-items")
-    const navItems = document.querySelector(".nav-items li")
-
-   
-    
-        
+     
         
    menuIcon.addEventListener("click",function(){
        // Burger Animation
@@ -38,9 +29,3 @@ if(mq.matches){
             
         }
    })
-       
-
-    
-
-
-}
