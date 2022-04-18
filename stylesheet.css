@@ -5,24 +5,437 @@
 }
   body{
     background-color: rgba(217, 217, 217, 0.72);
+    font-family: 'Poppins', sans-serif;
 }
 img{
     width: 100%;
 }
-  
+a{
+    text-decoration: none;
+    color: rgb(32, 36, 61);
+    
+}
+
+.friday-prayer{
+    background-image: url(images/woman\ praying.jpg);
+    color: blanchedalmond;
+    object-fit:cover;
+   background-size: cover;
+   background-position: center;
+   background-color: rgb(9, 17, 57);
+}
+
+.bible-study{
+    background-image: url(images/biblestudy.jpg);
+    color: blanchedalmond;
+  background-color: rgb(9, 17, 57);
+   background-size: cover;
+   background-position: center;
+}
+
+/* MOBLIE LAYOUT STUCTURE  */
+.container{
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+
+
+.blogs-container{
+   
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.sav1{
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+.sav-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cac-title{
+    color: blanchedalmond;
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    color: blanchedalmond;
+    font-size: 5em;
+    text-align: center;
+    padding: 0;
+}
+.savFoot{
+    color: blanchedalmond;
+    text-align: center;
+    padding: 0;
+}
+
+.intro{
+    background-image: url(images/wil-stewart-T26KCgCPsCI-unsplash.jpg);
+    background-color: rgb(9, 17, 57);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 7em;
+    padding: 10em 3em;
+    border-radius: 7px;
+    width: 100%;
+    margin: 0 auto;      
+}
+.programs{
+    max-width: 100%;
+    min-height: 200px;  
+    text-align: center;
+    margin: 0 auto;        
+}
+.sunday{
+            
+    letter-spacing: 2px;
+    font-size: 3em;
+}
+.location{           
+    font-size: 1rem;
+    padding: 0;    
+}
+#loc-time,
+#join-online{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.about{
+    padding: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1rem;
+    max-width: 70em;
+    margin-bottom: 3em;
+}
+.rectangle-look{   
+    max-width: 100%;
+    min-height: 200px;
+    border: none;    
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ 
+    box-shadow: 15px 15px 40px 3px #7e7e6f9c; 
+    margin: 0 auto;
+    padding-top: 1em; 
+    padding-bottom: 1em; 
+    background-color: white;
+}
+.cards{
+    width: 100%;
+      margin-bottom: 1em;  
+  } 
+  .weeklies{
+    max-width: 100%;
+    min-height: 300px;
+    border-radius: 7px;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;   
+    text-align: center;
+}
+
+.weekly-text{
+    text-align:start;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.programs,
+.weekly-programs,
+.expect-cards{
+    border-radius: 7px;
+    margin: 0 auto;
+    
+}
+.weekly-programs{
+    margin-top: 1em;
+}
+/* cards */
+.btn-card{
+    min-width:300px;
+}
+
+#cardYoung{
+    background-image: url(images/adedotun-adegborioye-_dhIJcPDg0U-unsplash.jpg);
+    background-color: rgb(9, 17, 57);
+}
+#cardProgram{
+    background-image: url(images/prayer.jpg);
+    background-color: rgb(9, 17, 57);
+}
+#cardKids{
+    background-image: url(images/biblestudy.jpg);
+    background-color: rgb(9, 17, 57);
+
+}
+.expect-cards{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.cards{
+    min-height: 300px;
+    /* TO BE CHANGED  */
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+    background-image: url(images/wil-stewart-T26KCgCPsCI-unsplash.jpg);
+    background-color: rgb(9, 17, 57);
+    border: 2px solid blanchedalmond;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    transition: transform 0.5s;
+    box-shadow: 11px 11px 20px 3px #7e7e6f9c;  
+}
+
+.card-title{
+    max-width: 350px;
+    font-size: 2.3rem;
+    color: blanchedalmond;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+/* cards */
+
+/* Zoom btn */
+#online-btn{
+    width: 100%;
+    padding: 20px 15px;
+    margin: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.online{
+    margin: 20px;
+}
+/* Zoom btn */
+ /* LIST lAYOUT */
+ li,
+ul{
+    list-style: none;
+}
+ .shadow{
+    box-shadow: 15px 15px 40px 3px #7e7e6f9c; 
+    border-radius: 7px;
+    margin: 1em 0;
+}
+.list{
+    padding: 2em 0;  
+}
+.list-padding{
+    padding: 1em;
+    border-bottom: #66666689 2px solid;
+    width: 90%;
+    margin: 0 auto;
+}
+.space{
+    margin-left: 1em;
+}
+.no-border{
+    border: none;
+   
+}
+
+.list-label{
+    font-size: 1.5rem;
+   
+    padding-top: 1em;
+    text-align: center;
+}
+.list-sublabel{
+    padding: .5em 1em;
+    text-align: center;
+    color: #2e2e2eaa;
+}
+.list-padding:focus,
+.list-padding:hover{
+    padding: 1.2em;
+   border-bottom: 4px #2e2e2e9d solid;
+    border-radius: 7px;
+    
+     box-shadow: 15px 15px 40px 3px #7e7e6f9c; 
+}
+.list-icons{
+    border-bottom: #2e2e2e 2px solid;
+    padding: 1em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+ /* LIST lAYOUT */
+
+
+
+/* FOOTER STARTS HERE */
+footer{
+    margin: 0 auto;
+    margin-top: 3em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2em;
+    
+}
+footer a{
+    text-decoration: 0;
+    color: black;
+
+}
+footer a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.arrow-dir{
+    font-weight: bolder;
+    font-size: 34px;
+}
+#footerNav li{
+    list-style: none;
+    margin: .3em 0;
+}
+.foot-right{
+    display: flex;
+}
+#footerNav{
+    max-width: 1200px;
+    display: flex;
+    
+    justify-content: space-around;
+    /* border: solid red 3px; */
+    padding:2em 0;
+    padding-bottom: .5em;
+    margin: 0 auto;
+    text-align: left;
+}
+.footerNav-items{
+    padding: .5em ;
+    margin: 1em;
+}
+#watchword{
+    margin: 1em 0;
+    font-size: 1.7em;
+}
+#watchword h2{
+    font-weight: 300;
+    
+}
+.foot-location{
+    font-size: 1.5em;
+}
+.copyright{
+    margin: .7em;
+    font-size: 1.3em;
+    color: #181818c2;
+}
+/* ------ SOCIAL MEDIA LINKS---- */
+
+
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #e6e3e3;
+    align-items: center;
+    margin: 20px 10px;
+    border-radius: 50%;
+    
+}
+.social-icons{       
+    display: flex ;
+}
+
+.social-icons i{
+    color:#000;        
+}
+
+.social-icons a:hover,
+.a-social-b a:hover {
+    background-color: #000;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+   
+}
+.social-icons a:hover i,
+.a-social-b a:hover i{
+    color:#FFFFFF;
+    transition: all ease 0.5s;
+}
+.a-social-b{
+    position: fixed;
+    top:50%;
+    right: 0px;
+    transform: translate(-50%);
+}
+.a-social-b a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #ffffff;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0,2);
+}
+.a-social-b i{
+    color: #2b2b2b;
+    font-size: 20px;
+}
+
+#socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+
+/* ------ SOCIAL MEDIA LINKS---- */
+
+/* FOOTER ENDS HERE */
+
+/* NAVIGATION STARTS HERE */
 
 .nav-logo{
     width: 4em;
     text-align: center;
-    align-items: center;
-    
-    
+    align-items: center;  
 }
 
 .nav-image{
     margin: 0 auto;
     margin-left: 1em;
-    
 }
 
 #main-nav{
@@ -31,29 +444,13 @@ img{
     align-items: center;
     background-color: white;
     height: 8vh;
-  }/*
-.menu-item{
-    border-radius: 7px;
-    
-    
-}
-.menu-item:focus,
-.menu-item:hover{
-    box-shadow: 1px 11px 20px 3px #7e7e6f9c;
-}
-.nav-items{
-    width: 45%; 
-    display: flex;
-    justify-content: space-between;
-    
-    
-} */
- 
+  }
 
 #main-nav a{
     color: #040404;
     background-color: white;
     /* display: block; */
+    letter-spacing: 1px;
     height: 5vh;
     font-family: lato;
     font-weight: bold;
@@ -62,21 +459,18 @@ img{
     justify-content: center;
     text-decoration: none ;
     transition: background 0.4s;
-    
-  
-
-
 }
-
-
-
-#main-nav a:hover{
+#main-nav ul a:hover{
   background-color: rgb(180, 180, 180);
+ 
 }
+
+
 
 #main-nav ul{
   list-style: none;
   display: flex;
+  
 
 }
 
@@ -84,6 +478,7 @@ img{
   width: 100%;
   text-align: center;
   position: relative;
+  
 
 }
 
@@ -91,6 +486,7 @@ img{
   display: none;
   position: absolute;
   top: 0px;
+
 }
 
 .submenu{
@@ -98,6 +494,9 @@ img{
   flex-direction: column;
   position: absolute;
   width: 100%;
+}
+.submenu li a{
+    padding: .5em;
 }
 .arrow{
   margin-left: .3em;
@@ -131,11 +530,56 @@ section{
     background-color:black;
     margin: 5px;
     transition: all 250ms ease;
+
 }
+.before-nav{
+    display: none;
+}
+
+/* BURGER ANIMATION */
+.closeAnimation .item1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.closeAnimation .item2{
+    opacity: 0;
+}
+.closeAnimation .item3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+/* NAVIGATION ENDS HERE */
 
 /* media Queries */
 
 @media (min-width:701px){
+/* laptop layout main conatainer */
+.blogs-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.blogs-left{
+    width: 60%;
+  
+
+
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+   
+}
+
+.blogs-right{
+    width: 37%;
+}
+.programs{
+    width: 1100px;
+}
+/* laptop layout main conatainer */
+
+
+    /* NAVIGATION ENDDS HERE */
     #main-nav li:hover .submenu > li{
         display: block;
         top: 0px;
@@ -144,23 +588,59 @@ section{
         width: 45%; 
         display: flex;
         justify-content: space-between;
-        
-        
     }
-    
+    /* NAVIGATION ENDS HERE */
    
 }
-.before-nav{
-    display: none;
-}
 
+
+ 
+ /* -------MEDIA QUERIES------ */
+ 
 @media (max-width:700px){
+    .sav1{
+        font-size: 3.8em;
+    }
+    /* moblie main container layout */
+    .weekly-programs{
+        padding: 1em;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 400px;
+        
+    }
+    .rectangle-look{   
+        max-width: 400px;
+    }
+    .weeklies{
+        max-width: 400px;
+    }
+    .programs{
+        max-width: 430px;
+    }
+    .cards{
+        max-width: 400px;
+        font-size: 3rem;
+    }
+    #footerNav{
+        flex-direction: column;
+    }
+    .foot-right,
+    .foot-left{
+        text-align: center;
+    }
+    .card-title{
+        max-width: 250px;
+        font-size: 2rem;
+        color: blanchedalmond;
+        margin: 0 auto;
+    }
+    /* moblie main container layout */
 
     .before-nav{
         display: flex;
         background-color: white;
         align-items: center;
-
     }
     .logo2{
         display: none;
@@ -168,7 +648,6 @@ section{
     #main-nav{
         display: none;
         background:rgb(199, 198, 198);
-        /* background-color: white; */
     }
 
     #main-nav ul{
@@ -195,43 +674,24 @@ section{
     }
 
     #menu-icon{
-       
-        /* margin: 0 auto; */
         width: 1.5em;
         display: block;
-        height: 40px;
-        /* background-color: rgb(199, 198, 198); */
+        height: 40px;       
         color: black;
         text-align: center;
         font-size: 24px;
         line-height: 2em;
         font-family: roboto, sans-serif;
         text-transform: uppercase;
-        /* border: red 2px solid; */
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
         
     }
-  
 
-    
- 
- 
     .burger{
         display: block;
     }
 }
-.closeAnimation .item1{
-    transform: rotate(-45deg) translate(-5px, 6px);
-}
-.closeAnimation .item2{
-    opacity: 0;
-}
-.closeAnimation .item3{
-    transform: rotate(45deg) translate(-5px, -6px);
-}
-
- 
- 
+ /* -------MEDIA QUERIES------ */
