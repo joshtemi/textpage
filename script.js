@@ -33,12 +33,6 @@ if(mq.matches){
    })
  }      
 
- const mainNav = document.getElementById("main-nav")
- const subMenu = document.querySelectorAll(".submenu")
- const hasSubMenu = document.querySelectorAll(".has-submenu")
- const menuIcon = document.getElementById("menu-icon")
-
-
 
  menuIcon.addEventListener("click",function(){
      // Burger Animation
