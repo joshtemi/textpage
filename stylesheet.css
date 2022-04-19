@@ -626,10 +626,14 @@ section{
     }
     #footerNav{
         flex-direction: column;
+        border: #000 solid 2px;
     }
     .foot-right,
     .foot-left{
         text-align: center;
+    }
+    .map-embed{
+        max-width: 350px;
     }
     .card-title{
         max-width: 250px;
@@ -637,6 +641,16 @@ section{
         color: blanchedalmond;
         margin: 0 auto;
     }
+   #footerNav,
+   .foot-foot{
+       max-width: 370px;
+       margin: 0 auto;
+       text-align: center;
+   }
+   footer{
+       text-align: center;
+       margin: 0 auto;
+   }
     /* moblie main container layout */
 
     .before-nav{
