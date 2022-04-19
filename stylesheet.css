@@ -657,6 +657,10 @@ section{
     justify-content: space-around;
     max-width: 350px;
 }
+.container{
+    max-width: 350px;
+    border: solid red 3px;
+}
     /* moblie main container layout */
 
     .before-nav{
