@@ -626,7 +626,7 @@ section{
     }
     #footerNav{
         flex-direction: column;
-        border: #000 solid 2px;
+        /* border: #000 solid 2px; */
     }
     .foot-right,
     .foot-left{
@@ -651,6 +651,12 @@ section{
        text-align: center;
        margin: 0 auto;
    }
+   .foot-right{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    /* max-width: 350px; */
+}
     /* moblie main container layout */
 
     .before-nav{
@@ -665,7 +671,7 @@ section{
         display: none;
         background:rgb(199, 198, 198);
     }
-
+  
     #main-nav ul{
         flex-direction: column;
     }
