@@ -655,7 +655,7 @@ section{
     text-align: center;
     margin: 0 auto;
     justify-content: space-around;
-    /* max-width: 350px; */
+    max-width: 350px;
 }
     /* moblie main container layout */
 
