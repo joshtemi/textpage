@@ -285,14 +285,14 @@ section{
 .top,
 .bottom{
     margin: 0 auto;
-    border: #000 2px solid;
+    /* border: #000 2px solid; */
 }
 .main{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-content: center;
-    border:  red 3px solid;
+    /* border:  red 3px solid; */
     justify-content: space-around;
     min-width: 300px;
     max-width: 1200px;
@@ -353,9 +353,9 @@ section{
  
 @media (max-width:700px){
 /* Main content */
-.main{
-    max-width: 290px;
-}
+/* .main{
+    max-width: 300px;
+} */
 .minister-img{
     max-width: 200px;
     max-height: 250px;
