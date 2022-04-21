@@ -353,6 +353,9 @@ section{
  
 @media (max-width:700px){
 /* Main content */
+ .minister-container{
+    max-width: 290px;
+}
 .minister-img{
     max-width: 200px;
     max-height: 250px;
