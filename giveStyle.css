@@ -259,7 +259,7 @@ section{
 }
 /* NAVIGATION ENDS HERE */
 
-/* media Queries */
+
 /* Main content */
 .main{
     /* background-image: url(images/give\ flyer.png); */
@@ -282,6 +282,10 @@ section{
     font-weight: 200;
     font-size: 4vh;
 }
+.first{
+    text-decoration: underline;
+    padding-bottom: 1em;
+}
 .check{
     background-color: #eaebff;
     max-width: 1200px;
@@ -291,7 +295,7 @@ section{
     padding: 1em;
 }
 /* Main content */
-
+/* media Queries */
 
 @media (min-width:701px){
     /* NAVIGATION ENDDS HERE */
