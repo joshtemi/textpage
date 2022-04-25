@@ -167,9 +167,13 @@ h1{
 .btn-card{
     min-width:300px;
 }
-
+.label{
+    background-color: rgba(41, 30, 20, 0.787);
+    border-radius: 7px;
+    padding: 2vh 2vw;
+}
 #cardYoung{
-    background-image: url(images/adedotun-adegborioye-_dhIJcPDg0U-unsplash.jpg);
+    background-image: url(images/Worship\ 1.jpg);
     background-color: rgb(9, 17, 57);
 }
 #cardProgram{
@@ -177,9 +181,13 @@ h1{
     background-color: rgb(9, 17, 57);
 }
 #cardKids{
-    background-image: url(images/biblestudy.jpg);
+    background-image: url(images/kids\ service.jpg);
     background-color: rgb(9, 17, 57);
 
+}
+#cardEXpect{
+    background-image: url(images/distance\ view.jpg);
+    background-color: rgb(9, 17, 57);
 }
 .expect-cards{
     max-width: 100%;
@@ -553,6 +561,11 @@ section{
     margin: 0 auto;
 }
 @media (min-width:701px){
+
+#main-nav{
+    position: fixed;
+    width: 100%;
+}
 /* laptop layout main conatainer */
 .blogs-container{
     display: flex;
@@ -561,8 +574,6 @@ section{
 }
 .blogs-left{
     width: 60%;
-  
-
 
 }
 
@@ -652,15 +663,15 @@ section{
        margin: 0 auto;
    }
    .foot-right{
-    text-align: center;
-    margin: 0 auto;
-    justify-content: space-around;
-    max-width: 350px;
-}
-.container{
-    max-width: 350px;
-    /* border: solid red 3px; */
-}
+        text-align: center;
+        margin: 0 auto;
+        justify-content: space-around;
+        max-width: 350px;
+    }
+    .container{
+        max-width: 350px;
+        /* border: solid red 3px; */
+    }
     /* moblie main container layout */
 
     .before-nav{
