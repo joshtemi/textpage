@@ -31,10 +31,16 @@ a{
     max-width: 1200px;
     margin: 0 auto;
 }
+.Easter{
+    background-image: url(images/hands\ up.jpg);
+}
+.Family{
+    background-image: url(images/family\ day\ pic.jpg);
+}
 .pic-container{
     width: 380px;
     height: 400px;
-    background-image: url(images/hands\ up.jpg);
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,7 +57,7 @@ a{
 
 .image-text{
     padding:1em;
-    background-color: rgba(128, 128, 128, 0.541);
+    background-color: rgba(75, 75, 75, 0.541);
     text-align: center;
     color: white;
     
