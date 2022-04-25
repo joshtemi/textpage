@@ -315,10 +315,7 @@ a{
 /* media Queries */
 
 @media (min-width:701px){
-    /* Main content */
-.programs-imgs{
-    /* max-height: 50vh; */
-}
+   
 .p-img{
     max-height: 50vh;
 }
@@ -346,6 +343,19 @@ a{
  /* -------MEDIA QUERIES------ */
  
 @media (max-width:700px){
+    /* Main content */
+
+ #main{
+    font-size: 1em;
+    /* max-width: 300px; */
+    border: #000 solid 2px;
+}
+/* max-height: 50vh; */
+
+
+
+
+    /* Main content */
 
     .before-nav{
         display: flex;
