@@ -263,12 +263,14 @@ section{
 /* title banner */
 .title-banner{
     font-size: 5vh;
-    background-image: url(images/adeyemi-emmanuel-abebayo-rtOUp5lCHps-unsplash.jpg);
+    background-image: url(images/pastors\ banner.jpg);
     background-size: cover;
     padding: 3em;
     color: blanchedalmond;
     text-align: center;
     margin: 0 auto;
+    background-position: center;
+    /* padding-top: 5em; */
 }
 
 
