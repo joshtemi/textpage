@@ -56,6 +56,9 @@ a{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.561);
+    padding: 1em;
+    border-radius: 7px;
 }
 .cac-title{
     color: blanchedalmond;
@@ -75,7 +78,7 @@ h1{
 }
 
 .intro{
-    background-image: url(images/wil-stewart-T26KCgCPsCI-unsplash.jpg);
+    background-image: url(images/intro\ 1.jpg);
     background-color: rgb(9, 17, 57);
     background-size: cover;
     display: flex;
