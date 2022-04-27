@@ -262,16 +262,20 @@ section{
 /* title banner */
 .title-banner{
     font-size: 5vh;
-    background-image: url(images/adeyemi-emmanuel-abebayo-rtOUp5lCHps-unsplash.jpg);
-    background-size: cover;
+    background-image: url(images/Scroll.jpg);
+    background-size:auto;
     padding: 3em;
     color: blanchedalmond;
     text-align: center;
     margin: 0 auto;
+    background-position: center;
+    
+    background-color: #00000087;
 }
 
 .title-banner h1{
-    padding: .5em;
+    font-size: 3vh;
+    padding: 1em;
     text-align: center;
     background-color: #04040487;
     /* border: red 3px solid; */
@@ -334,8 +338,9 @@ section{
 @media (max-width:700px){
     /* main content */
     .title-banner h1{
-        font-size: 4.5vh;
+        font-size: 4vh;
         text-align: center;
+        padding: .5em 0;
     }
 
     .main-content{
