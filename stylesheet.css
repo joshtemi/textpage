@@ -111,11 +111,13 @@ h1{
     margin-bottom: 1em;
 }
 .about{
+    font-size: 3vh;
+    font-weight: 700;
     padding: 1em;
     padding-bottom: 1em;
     text-align: center;
     margin: 0 auto;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     max-width: 70em;
     margin-bottom: 3em;
 }
@@ -215,6 +217,7 @@ h1{
     transition: transform 0.5s;
     box-shadow: 11px 11px 20px 3px #7e7e6f9c;  
 }
+
 
 .card-title{
     max-width: 350px;
@@ -569,6 +572,10 @@ section{
     position: fixed;
     width: 100%;
 }
+.location{
+    font-size: 2rem;
+    background-color: #2b2b2b7b;
+}
 /* laptop layout main conatainer */
 .blogs-container{
     display: flex;
@@ -712,7 +719,10 @@ section{
     /* .submenu li{
         display: none;
     } */
-
+    .location{
+       
+        background-color: #2b2b2b7b;
+    }
     #menu-icon{
         width: 1.5em;
         display: block;
